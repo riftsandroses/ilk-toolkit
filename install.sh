@@ -1,7 +1,7 @@
 #Checking Terminal App name
 termname=`echo $0`
 
-#Installing Nmap
+#Installing Nmap from Source Code
 bzip2 -cd nmap-7.92.tar.bz2 | tar xvf -
 cd nmap-7.92
 ./configure
