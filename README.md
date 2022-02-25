@@ -43,15 +43,15 @@ With your Comfort in Mind, this Shell Script has been designed to reduce all the
 ## Usage
 Each Tool and Software comes with its own manual and help menu for quick syntax reference. I have listed out the most common syntax used for these programs.
 
-1. BurpSuite Community Edition
+1. BurpSuite Community Edition -
 ```
 Click on Applications menu -> Search for 'BurpSuite Community Edition' -> Click to run
 ``` 
-2. Nikto
+2. Nikto -
 ```bash
     nikto -h <IP Address>
 ```
-3. Nmap
+3. Nmap -
 ```bash
     nmap -T4 -p- -A <IP Address>
 ```
@@ -61,10 +61,10 @@ Click on Applications menu -> Search for 'BurpSuite Community Edition' -> Click 
 ### BurpSuite Community Edition -
 ![App Screenshot](https://user-images.githubusercontent.com/63180210/155765551-bdbf031a-95cd-4a6e-8c3f-fe9f4bd3ffe5.png)
 
-### Nikto
+### Nikto -
 ![App Screenshot](https://user-images.githubusercontent.com/63180210/155765678-a74d850d-09ed-488e-999a-fe2d25b74197.png)
 
-### Nmap
+### Nmap -
 ![App Screenshot](https://user-images.githubusercontent.com/63180210/155765735-8559e320-614e-4f23-a371-9ed55e723282.png)
 
 
