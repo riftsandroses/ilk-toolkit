@@ -59,13 +59,13 @@ Click on Applications menu -> Search for 'BurpSuite Community Edition' -> Click 
 
 ## Screenshots
 BurpSuite Community Edition -
-![App Screenshot](https://drive.google.com/file/d/1FoXVDA2glVgI61exOdVxEBkiM2ibX2EU/view?usp=sharing)
+![App Screenshot](https://user-images.githubusercontent.com/63180210/155765551-bdbf031a-95cd-4a6e-8c3f-fe9f4bd3ffe5.png)
 
 Nikto
-![App Screenshot](https://drive.google.com/file/d/1q94i9zQuWrv8tLJJXSkrUl04GvvrtC6E/view?usp=sharing)
+![App Screenshot](https://user-images.githubusercontent.com/63180210/155765678-a74d850d-09ed-488e-999a-fe2d25b74197.png)
 
 Nmap
-![App Screenshot](https://drive.google.com/file/d/15ttXkn_9qVqPB2nSfX0Z6_MucsaRbcJP/view?usp=sharing)
+![App Screenshot](https://user-images.githubusercontent.com/63180210/155765735-8559e320-614e-4f23-a371-9ed55e723282.png)
 
 
 ## FAQ
