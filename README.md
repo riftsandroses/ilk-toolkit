@@ -72,11 +72,11 @@ Click on Applications menu -> Search for 'BurpSuite Community Edition' -> Click 
 
 #### 1. Are the Tools & Softwares kept up-to-date ?
 
-Yes, all the Tools & Softwares included in this package are updated in this repository on a weekly basis. All our releases are tested before we publish them.
+All the Tools & Softwares included in this package are updated in this repository on a weekly basis. All our releases are tested on the latest version of Pop!\_OS before we publish them.
 
-#### 2. 
+#### 2. Will more Tools & Softwares be added to the Package ?
 
-Answer 2
+Of Course! As mentioned, this ToolKit is still under Active Development. We have plans to add a lot more features and Tools to this Repository although we are trying to only include stuff that are actively being used in the Cybersecurity Domain and are not deprecated.
 
 
 ## Links
