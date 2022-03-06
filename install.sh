@@ -8,6 +8,16 @@ InstallationComplete=`echo "          IoT Lab KiiT Toolkit (ilk-toolkit) install
 LightBlue='\033[1;34m'
 White='\033[1;37m'
 NoColour='\033[0m'
+distroname=`lsb_release -i | cut -f 2-`
+ubuntudistro="Ubuntu"
+poposdistro="Pop"
+debiandistro="Debian"
+elementaryosdistro="elementary"
+mxlinuxdistro="MX"
+pclinuxosdistro="PCLinuxOS"
+zorinosdistro="Zorin"
+fedoradistro="Fedora"
+opensusedistro="SUSE LINUX"
 clear
 
 echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
@@ -96,4 +106,17 @@ echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _| 
 echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
 echo -e "${LightBlue}                                                                             "
 echo -e "${White}                               made by @riftsandroses                            "
+
+#Installing Wireshark
+if [ $distroname -eq $ubuntudistro -o $distroname -eq $poposdistro -o $distroname -eq $debiandistro -o $distroname -eq $elementaryosdistro -o $distroname -eq $kalilinuxdistro -o $distroname -eq $mxlinuxdistro -o $distroname -eq $parrotosdistro -o $distroname -eq $pclinuxosdistro -o $distroname -eq $zorinosdistro ]
+then
+    sudo apt-get install wireshark -y
+elif [ $distroname -eq $fedoradistro ]
+then
+    sudo dnf install wireshark
+elif [ $distroname -eq $opensusedistro ]
+then
+    sudo zypper install wireshark
+fi
+
 echo $InstallationComplete
