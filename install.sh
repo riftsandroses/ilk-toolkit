@@ -118,5 +118,17 @@ elif [ $distroname -eq $opensusedistro ]
 then
     sudo zypper install wireshark
 fi
+clear
+
+echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
+echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
+echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
+echo -e "${LightBlue}|_______||_____|  |___|      |_______|___._||_____|    |__|\__|__|__| |___|  "
+echo -e "${LightBlue}                  _______               __ __  __ __ __                      "
+echo -e "${LightBlue}                 |_     _|.-----.-----.|  |  |/  |__|  |_                    "
+echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _|                   "
+echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
+echo -e "${LightBlue}                                                                             "
+echo -e "${White}                               made by @riftsandroses                            "
 
 echo $InstallationComplete
