@@ -1,4 +1,4 @@
-#Name of Current User & Miscellaneous
+#Miscellaneous Commands & Variables
 CurrentUser=`whoami`
 SpaceShortcut=`echo ""`
 NmapTitle=`echo "*****************************| Installing Nmap |*****************************"`
@@ -31,7 +31,9 @@ echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____| 
 echo -e "${LightBlue}                                                                             "
 echo -e "${White}                               made by @riftsandroses                            "
 
-#Installing Nmap
+
+
+#Nmap Installation
 echo $NmapTitle
 sleep 3s
 bzip2 -cd nmap-7.92.tar.bz2 | tar xvf -
@@ -69,7 +71,9 @@ echo -e "${LightBlue}                                                           
 echo -e "${White}                               made by @riftsandroses                            "
 sleep 2s
 
-#Installing Nikto
+
+
+#Nikto Installation
 echo $NiktoTitle
 sleep 3s
 git clone https://github.com/sullo/nikto.git
@@ -89,37 +93,25 @@ echo -e "${LightBlue}                                                           
 echo -e "${White}                               made by @riftsandroses                            "
 
 
-#Installing BurpSuite Community Edition
-sleep 3s
-echo $BurpSuiteCETitle
-chmod +x burpsuite_community_linux_v2022_1_1.sh 
-./burpsuite_community_linux_v2022_1_1.sh
-clear
 
-echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
-echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
-echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
-echo -e "${LightBlue}|_______||_____|  |___|      |_______|___._||_____|    |__|\__|__|__| |___|  "
-echo -e "${LightBlue}                  _______               __ __  __ __ __                      "
-echo -e "${LightBlue}                 |_     _|.-----.-----.|  |  |/  |__|  |_                    "
-echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _|                   "
-echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
-echo -e "${LightBlue}                                                                             "
-echo -e "${White}                               made by @riftsandroses                            "
-
-#Installing Wireshark
-if [ $distroname -eq $ubuntudistro -o $distroname -eq $poposdistro -o $distroname -eq $debiandistro -o $distroname -eq $elementaryosdistro -o $distroname -eq $kalilinuxdistro -o $distroname -eq $mxlinuxdistro -o $distroname -eq $parrotosdistro -o $distroname -eq $pclinuxosdistro -o $distroname -eq $zorinosdistro ]
+#Wireshark Installation
+if [ "$distroname" == "$ubuntudistro" -o "$distroname" == "$poposdistro" -o "$distroname" == "$debiandistro" -o "$distroname" == "$elementaryosdistro" -o "$distroname" == "$kalilinuxdistro" -o "$distroname" == "$mxlinuxdistro" -o "$distroname" == "$parrotosdistro" -o "$distroname" == "$pclinuxosdistro" -o "$distroname" == "$zorinosdistro" ]
 then
     sudo apt-get install wireshark -y
-elif [ $distroname -eq $fedoradistro ]
+elif [ "$distroname" == "$fedoradistro" ]
 then
-    sudo dnf install wireshark
-elif [ $distroname -eq $opensusedistro ]
+    sudo dnf install wireshark -y
+elif [ "$distroname" == "$opensusedistro" ]
 then
-    sudo zypper install wireshark
+    sudo zypper install wireshark -y
+else
+	exit
 fi
 clear
 
+
+
+#Completion Message
 echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
 echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
 echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
@@ -130,5 +122,4 @@ echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _| 
 echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
 echo -e "${LightBlue}                                                                             "
 echo -e "${White}                               made by @riftsandroses                            "
-
 echo $InstallationComplete
