@@ -15,6 +15,7 @@ IoT Lab KiiT ToolKit is in active development and new tools are being added to t
 - BurpSuite Commmunity Edition
 - Nikto
 - Nmap
+- Wireshark
 
 
 ## Installation
@@ -64,7 +65,7 @@ Click on Applications menu -> Search for 'BurpSuite Community Edition' -> Click 
 
 
 ## Screenshots
-### BurpSuite Community Edition - CURRENTLY DISFUNCTIONAL
+### BurpSuite Community Edition - CURRENTLY DYSFUNCTIONAL
 ![App Screenshot](https://user-images.githubusercontent.com/63180210/155765551-bdbf031a-95cd-4a6e-8c3f-fe9f4bd3ffe5.png)
 
 ### Nikto -
