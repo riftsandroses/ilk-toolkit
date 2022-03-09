@@ -105,7 +105,7 @@ elif [ "$distroname" == "$opensusedistro" ]
 then
     sudo zypper install wireshark -y
 else
-	exit
+    exit
 fi
 clear
 
