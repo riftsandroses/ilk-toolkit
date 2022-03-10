@@ -72,7 +72,7 @@ Each Tool and Software comes with its own manual and help menu for quick syntax 
 
 #### 1. Are the Tools & Softwares kept up-to-date ?
 
-All the Tools & Softwares included in this package are updated in this repository on a weekly basis. All our releases are tested on the latest version of Pop!\_OS before we publish them.
+All the Tools & Softwares included in this package are updated in this repository on a weekly basis. All our releases are tested on the latest version of Pop!\_OS & Fedora before we publish them.
 
 #### 2. Will more Tools & Softwares be added to the Package ?
 
