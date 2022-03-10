@@ -1,8 +1,6 @@
 
 # IoT Lab KiiT ToolKit (ilk-toolkit)
 
-##WARNING: BURPSUITE CURRENTLY NOT FUNCTIONAL, AUTHOR IS WORKING ON THE ISSUE
-
 A Toolkit designed for IoT Lab KiiT to convert any Linux Distro into a Red Team Machine. This project was necessitated by the unreliability of 'kali-linux-everything' repo on certain installations and the subsequent depracation of 'katoolin' repo in Debian-based machines created a need for automating and fast tracking the process of conversion of the Daily Driver Linux Distros into an Offensive Machine for Cybersecurity applications.
 
 IoT Lab KiiT ToolKit is in active development and new tools are being added to the Package regularly. Suggestions regarding what Tools & Softwares to include and adding support for Terminal Shells apart from BASH are highly appreciated.
@@ -12,7 +10,6 @@ IoT Lab KiiT ToolKit is in active development and new tools are being added to t
 ![](https://img.shields.io/github/commit-activity/w/riftsandroses/ilk-toolkit?style=for-the-badge)
 ## Tools & Softwares
 
-- BurpSuite Commmunity Edition
 - Nikto
 - Nmap
 - Wireshark
@@ -46,28 +43,21 @@ With your Comfort in Mind, this Shell Script has been designed to reduce all the
 ## Usage
 Each Tool and Software comes with its own manual and help menu for quick syntax reference. I have listed out the most common syntax used for these programs.
 
-1. BurpSuite Community Edition -
-```
-Click on Applications menu -> Search for 'BurpSuite Community Edition' -> Click to run
-``` 
-2. Nikto -
+1. Nikto -
 ```bash
     nikto -h <IP Address>
 ```
-3. Nmap -
+2. Nmap -
 ```bash
     nmap -T4 -p- -A <IP Address>
 ```
-4. Wireshark -
+3. Wireshark -
 ```bash
     wireshark
 ```
 
 
 ## Screenshots
-### BurpSuite Community Edition - CURRENTLY DYSFUNCTIONAL
-![App Screenshot](https://user-images.githubusercontent.com/63180210/155765551-bdbf031a-95cd-4a6e-8c3f-fe9f4bd3ffe5.png)
-
 ### Nikto -
 ![App Screenshot](https://user-images.githubusercontent.com/63180210/155765678-a74d850d-09ed-488e-999a-fe2d25b74197.png)
 
