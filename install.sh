@@ -3,7 +3,7 @@ CurrentUser=`whoami`
 SpaceShortcut=`echo ""`
 NmapTitle=`echo "*****************************| Installing Nmap |*****************************"`
 NiktoTitle=`echo "*****************************| Installing Nikto |****************************"`
-BurpSuiteCETitle=`echo "*************************| Installing BurpSuite CE |*************************"`
+WireSharkTitle=`echo "*************************| Installing WireShark |*************************"`
 InstallationComplete=`echo "          IoT Lab KiiT Toolkit (ilk-toolkit) installed SUCCESSFULLY          "`
 LightBlue='\033[1;34m'
 White='\033[1;37m'
@@ -95,6 +95,8 @@ echo -e "${White}                               made by @riftsandroses          
 
 
 #Wireshark Installation
+echo $WireSharkTitle
+sleep 3s
 if [ "$distroname" == "$ubuntudistro" -o "$distroname" == "$poposdistro" -o "$distroname" == "$debiandistro" -o "$distroname" == "$elementaryosdistro" -o "$distroname" == "$kalilinuxdistro" -o "$distroname" == "$mxlinuxdistro" -o "$distroname" == "$parrotosdistro" -o "$distroname" == "$pclinuxosdistro" -o "$distroname" == "$zorinosdistro" ]
 then
     sudo apt-get install wireshark -y
