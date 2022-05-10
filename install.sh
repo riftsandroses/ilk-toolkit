@@ -4,6 +4,7 @@ SpaceShortcut=`echo ""`
 NmapTitle=`echo "*****************************| Installing Nmap |*****************************"`
 NiktoTitle=`echo "*****************************| Installing Nikto |****************************"`
 WireSharkTitle=`echo "*************************| Installing WireShark |*************************"`
+JohntheRipperTitle=`echo "*************************| Installing JohntheRipper |*************************"
 InstallationComplete=`echo "          IoT Lab KiiT Toolkit (ilk-toolkit) installed SUCCESSFULLY          "`
 LightBlue='\033[1;34m'
 White='\033[1;37m'
