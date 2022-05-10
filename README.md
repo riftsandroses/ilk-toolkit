@@ -8,6 +8,13 @@ IoT Lab KiiT ToolKit is in active development and new tools are being added to t
 ![](https://img.shields.io/github/repo-size/riftsandroses/ilk-toolkit?style=for-the-badge) 
 ![](https://img.shields.io/github/license/riftsandroses/ilk-toolkit?style=for-the-badge)
 ![](https://img.shields.io/github/commit-activity/w/riftsandroses/ilk-toolkit?style=for-the-badge)
+
+
+## Programming Languages
+- Perl
+- Golang (Go)
+
+
 ## Tools & Softwares
 
 - Nikto
