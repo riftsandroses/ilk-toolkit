@@ -132,7 +132,6 @@ sleep 3s
 git clone https://github.com/sullo/nikto.git
 sudo cp -r /home/$curruser/ilk-toolkit/nikto /opt/
 cat  forbashrc.txt >> /home/$curruser/.bashrc
-cat  forbashrc.txt >> /home/$curruser/.bashrc
 clear
 echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
 echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
