@@ -21,6 +21,8 @@ fedoradistro="Fedora"
 opensusedistro="SUSE LINUX"
 clear
 
+
+
 echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
 echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
 echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
@@ -74,27 +76,6 @@ sleep 2s
 
 
 
-#Nikto Installation
-echo $NiktoTitle
-sleep 3s
-git clone https://github.com/sullo/nikto.git
-sudo cp -r /home/$curruser/ilk-toolkit/nikto /opt/
-cat  forbashrc.txt >> /home/$curruser/.bashrc
-cat  forbashrc.txt >> /home/$curruser/.bashrc
-clear
-echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
-echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
-echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
-echo -e "${LightBlue}|_______||_____|  |___|      |_______|___._||_____|    |__|\__|__|__| |___|  "
-echo -e "${LightBlue}                  _______               __ __  __ __ __                      "
-echo -e "${LightBlue}                 |_     _|.-----.-----.|  |  |/  |__|  |_                    "
-echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _|                   "
-echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
-echo -e "${LightBlue}                                                                             "
-echo -e "${White}                               made by @riftsandroses                            "
-
-
-
 #Wireshark Installation
 echo $WireSharkTitle
 sleep 3s
@@ -123,6 +104,7 @@ echo -e "${LightBlue}                                                           
 echo -e "${White}                               made by @riftsandroses                            "
 
 
+
 #JohntheRipper Installation
 echo $JohntheRipperTitle
 sleep 3s
@@ -139,6 +121,29 @@ else
     exit
 fi
 clear
+curl -OL https://golang.org/dl/go1.16.7.linux-amd64.tar.gz
+sudo tar -C /usr/local -xvf go1.16.7.linux-amd64.tar.gz
+
+
+
+#Nikto Installation
+echo $NiktoTitle
+sleep 3s
+git clone https://github.com/sullo/nikto.git
+sudo cp -r /home/$curruser/ilk-toolkit/nikto /opt/
+cat  forbashrc.txt >> /home/$curruser/.bashrc
+cat  forbashrc.txt >> /home/$curruser/.bashrc
+clear
+echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
+echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
+echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
+echo -e "${LightBlue}|_______||_____|  |___|      |_______|___._||_____|    |__|\__|__|__| |___|  "
+echo -e "${LightBlue}                  _______               __ __  __ __ __                      "
+echo -e "${LightBlue}                 |_     _|.-----.-----.|  |  |/  |__|  |_                    "
+echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _|                   "
+echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
+echo -e "${LightBlue}                                                                             "
+echo -e "${White}                               made by @riftsandroses                            "
 
 
 
