@@ -39,11 +39,13 @@ Step-2 : Make the Shell Script Executable
 ```bash
   chmod +x install.sh 
 ```
+
 Step-3 : Run the Shell Script
 
 ```bash
   ./install.sh
 ```
+
 That's it ! You are now Ready to use the Entire Suite of Tools included in this Package.
 ## Environment/PATH Variables
 
