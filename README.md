@@ -37,12 +37,12 @@ Step-1 : Navigate to Home Directory and Clone the Repository
 Step-2 : Make the Shell Script Executable
 
 ```bash
-    chmod +x install.sh 
+  chmod +x install.sh 
 ```
 Step-3 : Run the Shell Script
 
 ```bash
-    ./install.sh
+  ./install.sh
 ```
 That's it ! You are now Ready to use the Entire Suite of Tools included in this Package.
 ## Environment/PATH Variables
