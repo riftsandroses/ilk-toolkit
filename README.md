@@ -1,5 +1,6 @@
 
 # IoT Lab KiiT ToolKit (ilk-toolkit)
+![](https://user-images.githubusercontent.com/63180210/167858579-20d11202-3c5e-4b53-8107-fa982da567b5.png)
 
 A Toolkit designed for IoT Lab KiiT to convert any Linux Distro into a Red Team Machine. This project was necessitated by the unreliability of 'kali-linux-everything' repo on certain installations and the subsequent depracation of 'katoolin' repo in Debian-based machines created a need for automating and fast tracking the process of conversion of the Daily Driver Linux Distros into an Offensive Machine for Cybersecurity applications.
 
