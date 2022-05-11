@@ -22,6 +22,19 @@ IoT Lab KiiT ToolKit is in active development and new tools are being added to t
 - Wireshark
 - John the Ripper
 
+## Screenshots
+### Nikto -
+![App Screenshot](https://user-images.githubusercontent.com/63180210/155765678-a74d850d-09ed-488e-999a-fe2d25b74197.png)
+
+### Nmap -
+![App Screenshot](https://user-images.githubusercontent.com/63180210/155765735-8559e320-614e-4f23-a371-9ed55e723282.png)
+
+### Wireshark -
+![App Screenshot](https://user-images.githubusercontent.com/63180210/157391833-dc227419-47d5-49e2-b102-472cc6f0c552.png)
+
+### John the Ripper -
+![App Screenshot](https://user-images.githubusercontent.com/63180210/167545953-7abe3ff7-88ef-4276-b80a-5c7c577c04e3.png)
+
 
 ## Installation
 
@@ -70,19 +83,6 @@ Each Tool and Software comes with its own manual and help menu for quick syntax 
     john
 ```
 
-
-## Screenshots
-### Nikto -
-![App Screenshot](https://user-images.githubusercontent.com/63180210/155765678-a74d850d-09ed-488e-999a-fe2d25b74197.png)
-
-### Nmap -
-![App Screenshot](https://user-images.githubusercontent.com/63180210/155765735-8559e320-614e-4f23-a371-9ed55e723282.png)
-
-### Wireshark -
-![App Screenshot](https://user-images.githubusercontent.com/63180210/157391833-dc227419-47d5-49e2-b102-472cc6f0c552.png)
-
-### John the Ripper -
-![App Screenshot](https://user-images.githubusercontent.com/63180210/167545953-7abe3ff7-88ef-4276-b80a-5c7c577c04e3.png)
 
 
 ## FAQ
