@@ -93,6 +93,9 @@ All the Tools & Softwares included in this package are updated in this repositor
 
 Of Course! As mentioned, this ToolKit is still under Active Development. We have plans to add a lot more features and Tools to this Repository although we are trying to only include stuff that are actively being used in the Cybersecurity Domain and are not deprecated.
 
+#### 3. Which Linux Distros are currently supported ?
+
+Currently, OpenSUSE, Fedora and most of the Popular Ubuntu & Debian based Linux Distros are supported. The full list of all the supported Linux Distros is as follows: OpenSUSE, Fedora, Ubuntu, Pop!\_OS, Debian, ElementaryOS, MX Linux, PCLinuxOS & ZorinOS. Even Kali Linux & Parrot OS are supported but it is doubtful that this Toolkit will be useful for you for obvious reasons.
 
 ## Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/riftsandroses)
