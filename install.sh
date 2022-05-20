@@ -214,6 +214,36 @@ clear
 
 
 
+#Perl Installation
+echo $GolangTitle
+sleep 3s
+if [ "$distroname" == "$ubuntudistro" -o "$distroname" == "$poposdistro" -o "$distroname" == "$debiandistro" -o "$distroname" == "$elementaryosdistro" -o "$distroname" == "$kalilinuxdistro" -o "$distroname" == "$mxlinuxdistro" -o "$distroname" == "$parrotosdistro" -o "$distroname" == "$pclinuxosdistro" -o "$distroname" == "$zorinosdistro" ]
+then
+    sudo apt-get install perl -y
+elif [ "$distroname" == "$fedoradistro" ]
+then
+    sudo dnf install perl -y
+elif [ "$distroname" == "$opensusedistro" ]
+then
+    sudo zypper install perl -y
+else
+    exit
+fi
+clear
+echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
+echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
+echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
+echo -e "${LightBlue}|_______||_____|  |___|      |_______|___._||_____|    |__|\__|__|__| |___|  "
+echo -e "${LightBlue}                  _______               __ __  __ __ __                      "
+echo -e "${LightBlue}                 |_     _|.-----.-----.|  |  |/  |__|  |_                    "
+echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _|                   "
+echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
+echo -e "${LightBlue}                                                                             "
+echo -e "${White}                               made by @riftsandroses                            "
+sleep 2s
+
+
+
 #Completion Message
 echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
 echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
