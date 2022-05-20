@@ -87,21 +87,21 @@ Each Tool and Software comes with its own manual and help menu for quick syntax 
 ```bash
     john
 ```
-2. Nikto -
+2. GoBuster -
+```bash
+    gobuster -h
+```
+3. Nikto -
 ```bash
     nikto -h <IP Address>
 ```
-3. Nmap -
+4. Nmap -
 ```bash
     nmap -T4 -p- -A <IP Address>
 ```
-4. Wireshark -
+5. Wireshark -
 ```bash
     wireshark
-```
-5. GoBuster -
-```bash
-    gobuster -h
 ```
 
 
