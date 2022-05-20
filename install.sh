@@ -4,10 +4,10 @@ SpaceShortcut=`echo ""`
 NmapTitle=`echo "*****************************| Installing Nmap |*****************************"`
 NiktoTitle=`echo "*****************************| Installing Nikto |****************************"`
 WireSharkTitle=`echo "*************************| Installing WireShark |*************************"`
-JohntheRipperTitle=`echo "*************************| Installing JohntheRipper |*************************"`
-GoBusterTitle=`echo "******************************| Installing GoBuster |******************************"`
-GolangTitle=`echo "******************************| Installing Go(golang) |*******************************"`
-PerlTitle=`echo "******************************| Installing Perl |******************************"`
+JohntheRipperTitle=`echo "*********************| Installing JohntheRipper |*********************"`
+GoBusterTitle=`echo "**************************| Installing GoBuster |**************************"`
+GolangTitle=`echo "**************************| Installing Go(golang) |***************************"`
+PerlTitle=`echo "**************************| Installing Perl |**************************"`
 InstallationComplete=`echo "          IoT Lab KiiT Toolkit (ilk-toolkit) installed SUCCESSFULLY          "`
 LightBlue='\033[1;34m'
 White='\033[1;37m'
@@ -213,7 +213,7 @@ sleep 2s
 
 
 #Perl Installation
-echo $GolangTitle
+echo $PerlTitle
 sleep 3s
 if [ "$distroname" == "$ubuntudistro" -o "$distroname" == "$poposdistro" -o "$distroname" == "$debiandistro" -o "$distroname" == "$elementaryosdistro" -o "$distroname" == "$kalilinuxdistro" -o "$distroname" == "$mxlinuxdistro" -o "$distroname" == "$parrotosdistro" -o "$distroname" == "$pclinuxosdistro" -o "$distroname" == "$zorinosdistro" ]
 then
