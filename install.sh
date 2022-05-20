@@ -198,7 +198,6 @@ else
     exit
 fi
 clear
-clear
 echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
 echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
 echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
@@ -210,7 +209,6 @@ echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____| 
 echo -e "${LightBlue}                                                                             "
 echo -e "${White}                               made by @riftsandroses                            "
 sleep 2s
-clear
 
 
 
@@ -241,6 +239,7 @@ echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____| 
 echo -e "${LightBlue}                                                                             "
 echo -e "${White}                               made by @riftsandroses                            "
 sleep 2s
+clear
 
 
 
