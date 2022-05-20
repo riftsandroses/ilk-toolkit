@@ -171,7 +171,9 @@ then
     sudo dnf install nikto -y
 elif [ "$distroname" == "$opensusedistro" ]
 then
-    sudo zypper install -y
+    sudo zypper addrepo https://ftp.lysator.liu.se/pub/opensuse/repositories/security/openSUSE_Leap_15.3/ security-x86_64
+    sudo zypper addrepo https://ftp.lysator.liu.se/pub/opensuse/repositories/security/openSUSE_Tumbleweed/ security-x86_64
+    sudo zypper install nikto -y
 else
     exit
 fi
