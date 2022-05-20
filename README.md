@@ -55,7 +55,10 @@ Step-1 : Navigate to Home Directory and Clone the Repository
 
 ```bash
   cd ~
+  # Either use following to clone from GitHub
   git clone https://github.com/riftsandroses/ilk-toolkit.git
+  # Or use following to clone from GitLab
+  git clone https://gitlab.com/ilk-toolkit/ilk-toolkit.git
 ```
 
 Step-2 : Make the Shell Script Executable
