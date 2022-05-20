@@ -40,8 +40,18 @@ echo -e "${White}                               made by @riftsandroses          
 #Nmap Installation
 echo $NmapTitle
 sleep 3s
-bzip2 -cd nmap-7.92.tar.bz2 | tar xvf -
-cd nmap-7.92
+if [ "$distroname" == "$ubuntudistro" -o "$distroname" == "$poposdistro" -o "$distroname" == "$debiandistro" -o "$distroname" == "$elementaryosdistro" -o "$distroname" == "$kalilinuxdistro" -o "$distroname" == "$mxlinuxdistro" -o "$distroname" == "$parrotosdistro" -o "$distroname" == "$pclinuxosdistro" -o "$distroname" == "$zorinosdistro" ]
+then
+    sudo apt-get install nmap -y
+elif [ "$distroname" == "$fedoradistro" ]
+then
+    sudo dnf install nmap -y
+elif [ "$distroname" == "$opensusedistro" ]
+then
+    sudo zypper install nmap -y
+else
+    exit
+fi
 clear
 echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
 echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
@@ -53,27 +63,6 @@ echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _| 
 echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
 echo -e "${LightBlue}                                                                             "
 echo -e "${White}                               made by @riftsandroses                            "
-echo $NmapTitle
-sleep 2s
-echo "Subsequent Installation requires 'sudo' privilege"
-echo $SpaceShortcutclear
-sleep 2s
-sudo ./configure
-sudo make
-sudo make install
-cd ..
-clear
-echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
-echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
-echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
-echo -e "${LightBlue}|_______||_____|  |___|      |_______|___._||_____|    |__|\__|__|__| |___|  "
-echo -e "${LightBlue}                  _______               __ __  __ __ __                      "
-echo -e "${LightBlue}                 |_     _|.-----.-----.|  |  |/  |__|  |_                    "
-echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _|                   "
-echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
-echo -e "${LightBlue}                                                                             "
-echo -e "${White}                               made by @riftsandroses                            "
-sleep 2s
 
 
 
@@ -174,9 +163,19 @@ sleep 2s
 #Nikto Installation
 echo $NiktoTitle
 sleep 3s
-git clone https://github.com/sullo/nikto.git
-sudo cp -r /home/$curruser/ilk-toolkit/nikto /opt/
-cat  forbashrc.txt >> /home/$curruser/.bashrc
+if [ "$distroname" == "$ubuntudistro" -o "$distroname" == "$poposdistro" -o "$distroname" == "$debiandistro" -o "$distroname" == "$elementaryosdistro" -o "$distroname" == "$kalilinuxdistro" -o "$distroname" == "$mxlinuxdistro" -o "$distroname" == "$parrotosdistro" -o "$distroname" == "$pclinuxosdistro" -o "$distroname" == "$zorinosdistro" ]
+then
+    sudo apt-get install nikto -y
+elif [ "$distroname" == "$fedoradistro" ]
+then
+    sudo dnf install nikto -y
+elif [ "$distroname" == "$opensusedistro" ]
+then
+    sudo zypper install -y
+else
+    exit
+fi
+clear
 clear
 echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
 echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
