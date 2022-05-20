@@ -11,19 +11,31 @@ IoT Lab KiiT ToolKit is in active development and new tools are being added to t
 ![](https://img.shields.io/github/commit-activity/y/riftsandroses/ilk-toolkit?style=for-the-badge)
 
 
+
 ## Programming Languages
 - Perl
 - Golang (Go)
 
 
+
 ## Tools & Softwares
 
+- GoBuster
+- John the Ripper
 - Nikto
 - Nmap
 - Wireshark
-- John the Ripper
+
+
 
 ## Screenshots
+
+### GoBuster -
+![App Screenshot](https://user-images.githubusercontent.com/63180210/169448383-02ba1a5a-aad2-42e2-acfd-577699cab281.png)
+
+### John the Ripper -
+![App Screenshot](https://user-images.githubusercontent.com/63180210/167545953-7abe3ff7-88ef-4276-b80a-5c7c577c04e3.png)
+
 ### Nikto -
 ![App Screenshot](https://user-images.githubusercontent.com/63180210/155765678-a74d850d-09ed-488e-999a-fe2d25b74197.png)
 
@@ -33,8 +45,6 @@ IoT Lab KiiT ToolKit is in active development and new tools are being added to t
 ### Wireshark -
 ![App Screenshot](https://user-images.githubusercontent.com/63180210/157391833-dc227419-47d5-49e2-b102-472cc6f0c552.png)
 
-### John the Ripper -
-![App Screenshot](https://user-images.githubusercontent.com/63180210/167545953-7abe3ff7-88ef-4276-b80a-5c7c577c04e3.png)
 
 
 ## Installation
@@ -64,24 +74,31 @@ That's it ! You are now Ready to use the Entire Suite of Tools included in this 
 ## Environment/PATH Variables
 
 With your Comfort in Mind, this Shell Script has been designed to reduce all the Fuss about Environments and PATH Variables. It automatically does all the Hard Work for You, so you don't have to ! 
+
+
+
 ## Usage
 Each Tool and Software comes with its own manual and help menu for quick syntax reference. I have listed out the most common syntax used for these programs.
 
-1. Nikto -
+1. John the Ripper -
+```bash
+    john
+```
+2. Nikto -
 ```bash
     nikto -h <IP Address>
 ```
-2. Nmap -
+3. Nmap -
 ```bash
     nmap -T4 -p- -A <IP Address>
 ```
-3. Wireshark -
+4. Wireshark -
 ```bash
     wireshark
 ```
-4. John the Ripper -
+5. GoBuster -
 ```bash
-    john
+    gobuster -h
 ```
 
 
