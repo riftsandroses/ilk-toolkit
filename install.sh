@@ -4,7 +4,8 @@ SpaceShortcut=`echo ""`
 NmapTitle=`echo "*****************************| Installing Nmap |*****************************"`
 NiktoTitle=`echo "*****************************| Installing Nikto |****************************"`
 WireSharkTitle=`echo "*************************| Installing WireShark |*************************"`
-JohntheRipperTitle=`echo "*************************| Installing JohntheRipper |*************************"
+JohntheRipperTitle=`echo "*************************| Installing JohntheRipper |*************************"`
+GoBusterTitle=`echo "******************************| Installing GoBuster |******************************"`
 InstallationComplete=`echo "          IoT Lab KiiT Toolkit (ilk-toolkit) installed SUCCESSFULLY          "`
 LightBlue='\033[1;34m'
 White='\033[1;37m'
@@ -102,7 +103,7 @@ echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _| 
 echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
 echo -e "${LightBlue}                                                                             "
 echo -e "${White}                               made by @riftsandroses                            "
-
+sleep 2s
 
 
 #JohntheRipper Installation
@@ -123,6 +124,50 @@ fi
 clear
 curl -OL https://golang.org/dl/go1.16.7.linux-amd64.tar.gz
 sudo tar -C /usr/local -xvf go1.16.7.linux-amd64.tar.gz
+echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
+echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
+echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
+echo -e "${LightBlue}|_______||_____|  |___|      |_______|___._||_____|    |__|\__|__|__| |___|  "
+echo -e "${LightBlue}                  _______               __ __  __ __ __                      "
+echo -e "${LightBlue}                 |_     _|.-----.-----.|  |  |/  |__|  |_                    "
+echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _|                   "
+echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
+echo -e "${LightBlue}                                                                             "
+echo -e "${White}                               made by @riftsandroses                            "
+sleep 2s
+
+
+
+#GoBuster Installation
+echo $GoBusterTitle
+sleep 3s
+if [ "$distroname" == "$ubuntudistro" -o "$distroname" == "$poposdistro" -o "$distroname" == "$debiandistro" -o "$distroname" == "$elementaryosdistro" -o "$distroname" == "$kalilinuxdistro" -o "$distroname" == "$mxlinuxdistro" -o "$distroname" == "$parrotosdistro" -o "$distroname" == "$pclinuxosdistro" -o "$distroname" == "$zorinosdistro" ]
+then
+    sudo apt-get install gobuster -y
+    sudo apt-get install seclists -y
+elif
+    [ "$distroname" == "$fedoradistro" ]
+then
+    sudo dnf install gobuster -y
+elif [ "$distroname" == "$opensusedistro" ]
+then
+    echo "GoBuster for OpenSUSE coming soon"
+    sleep 3s
+else
+    exit
+fi
+clear
+echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
+echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
+echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
+echo -e "${LightBlue}|_______||_____|  |___|      |_______|___._||_____|    |__|\__|__|__| |___|  "
+echo -e "${LightBlue}                  _______               __ __  __ __ __                      "
+echo -e "${LightBlue}                 |_     _|.-----.-----.|  |  |/  |__|  |_                    "
+echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _|                   "
+echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
+echo -e "${LightBlue}                                                                             "
+echo -e "${White}                               made by @riftsandroses                            "
+sleep 2s
 
 
 
@@ -143,6 +188,8 @@ echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _| 
 echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
 echo -e "${LightBlue}                                                                             "
 echo -e "${White}                               made by @riftsandroses                            "
+sleep 2s
+clear
 
 
 
