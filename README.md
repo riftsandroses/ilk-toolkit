@@ -1,5 +1,3 @@
-
-## hello World
 # IoT Lab KiiT ToolKit (ilk-toolkit)
 ![](https://user-images.githubusercontent.com/63180210/167858579-20d11202-3c5e-4b53-8107-fa982da567b5.png)
 
