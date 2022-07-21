@@ -8,6 +8,7 @@ JohntheRipperTitle=`echo "*********************| Installing JohntheRipper |*****
 GoBusterTitle=`echo "**************************| Installing GoBuster |**************************"`
 GolangTitle=`echo "**************************| Installing Go(golang) |***************************"`
 PerlTitle=`echo "**************************| Installing Perl |**************************"`
+ArpScanTitle=`echo "*************************| Installing Arp-Scan |*************************"`
 InstallationComplete=`echo "          IoT Lab KiiT Toolkit (ilk-toolkit) installed SUCCESSFULLY          "`
 LightBlue='\033[1;34m'
 White='\033[1;37m'
@@ -224,6 +225,36 @@ then
 elif [ "$distroname" == "$opensusedistro" ]
 then
     sudo zypper install perl -y
+else
+    exit
+fi
+clear
+echo -e "${LightBlue} _______         _______      _____          __         __  __ __ __ _______ "
+echo -e "${LightBlue}|_     _|.-----.|_     _|    |     |_.---.-.|  |--.    |  |/  |__|__|_     _|"
+echo -e "${LightBlue} _|   |_ |  _  |  |   |      |       |  _  ||  _  |    |     <|  |  | |   |  "
+echo -e "${LightBlue}|_______||_____|  |___|      |_______|___._||_____|    |__|\__|__|__| |___|  "
+echo -e "${LightBlue}                  _______               __ __  __ __ __                      "
+echo -e "${LightBlue}                 |_     _|.-----.-----.|  |  |/  |__|  |_                    "
+echo -e "${LightBlue}                   |   |  |  _  |  _  ||  |     <|  |   _|                   "
+echo -e "${LightBlue}                   |___|  |_____|_____||__|__|\__|__|____|                   "
+echo -e "${LightBlue}                                                                             "
+echo -e "${White}                               made by @riftsandroses                            "
+sleep 2s
+clear
+
+
+#Perl Installation
+echo $ArpScanTitle
+sleep 3s
+if [ "$distroname" == "$ubuntudistro" -o "$distroname" == "$poposdistro" -o "$distroname" == "$debiandistro" -o "$distroname" == "$elementaryosdistro" -o "$distroname" == "$kalilinuxdistro" -o "$distroname" == "$mxlinuxdistro" -o "$distroname" == "$parrotosdistro" -o "$distroname" == "$pclinuxosdistro" -o "$distroname" == "$zorinosdistro" ]
+then
+    sudo apt-get install arp-scan -y
+elif [ "$distroname" == "$fedoradistro" ]
+then
+    sudo dnf install arp-scan -y
+elif [ "$distroname" == "$opensusedistro" ]
+then
+    sudo zypper install arp-scan -y
 else
     exit
 fi
